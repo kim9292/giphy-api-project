@@ -1,6 +1,5 @@
 // look back at the <readme.md> file for some hints //
 // working API key //
-document.addEventListener("DOMContentLoaded", () => {
 const giphyApiKey = "MhAodEJIJxQMxW9XqxKjyXfNYdLoOIym";
 
 
@@ -51,5 +50,4 @@ async function grabGifFromApi(query)
         display.innerHTML = "";
         display.innerHTML ="...GIF here...";
     }
-})
 
